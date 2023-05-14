@@ -250,17 +250,11 @@ menu {
   justify-content: center;
   width: 100%;
   height: min-content;
-
   position: absolute;
-
   background-color: rgb(255, 252, 249);
-
   margin-top: calc(var(--custom-padding) * 6);
-
   gap: var(--custom-gap);
   padding: calc(var(--custom-padding) / 2);
-
-  transition: all 0.5s ease-in-out;
 }
 
 .hidden {
@@ -278,16 +272,9 @@ menu li {
   padding-top: calc(var(--custom-padding) / 4);
   padding-bottom: calc(var(--custom-padding) / 4);
   border-radius: calc(var(--custom-padding) / 2);
-
   color: #243041;
   text-transform: uppercase;
-
-  /* transition: background-color 0.2s ease-in-out; */
 }
-
-/* menu button:hover {
-  background-color: aqua;
-} */
 
 .introduction {
   display: flex;
@@ -305,7 +292,6 @@ menu li {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
   background-color: rgb(255, 252, 249);
 }
 
@@ -316,9 +302,7 @@ menu li {
   justify-content: center;
   width: 100%;
   height: 100%;
-
-  gap: 20px;
-
+  gap: var(--custom-gap);
   padding-top: var(--custom-padding);
   padding-bottom: var(--custom-padding);
   padding-left: var(--sides-padding);
@@ -420,7 +404,7 @@ menu li {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: calc(var(--custom-gap) / 3);
 }
 
 .testimonials img {
@@ -464,8 +448,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-
-  gap: 2rem;
+  gap: var(--custom-gap);
   width: 100%;
   height: 50%;
 }
@@ -473,10 +456,10 @@ footer {
 .attribution {
   font-size: 11px;
   text-align: center;
-
   position: absolute;
   bottom: 5%;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
