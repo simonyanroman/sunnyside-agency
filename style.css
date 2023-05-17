@@ -116,6 +116,8 @@ body {
   height: 100%;
 }
 
+/* Font styling start */
+
 h1 {
   font-family: "Fraunces";
   font-size: 2.5rem;
@@ -198,6 +200,8 @@ p {
 .testimonial h6 {
   color: #acabaa;
 }
+
+/* Font styling end */
 
 body {
   display: flex;
@@ -513,13 +517,6 @@ footer {
   }
 
   .contact {
-    background-color: rgb(250, 250, 250);
-    padding-left: calc(var(--custom-padding) / 2);
-    padding-right: calc(var(--custom-padding) / 2);
-    padding-top: calc(var(--custom-padding) / 4);
-    padding-bottom: calc(var(--custom-padding) / 4);
-    border-radius: calc(var(--custom-padding) / 2);
-    color: #243041;
     text-transform: uppercase;
     transition: background-color 0.25s ease-in-out;
     cursor: pointer;
@@ -607,6 +604,7 @@ footer {
 
   .testimonial-wrapper {
     display: flex;
+    flex-direction: row;
     width: 80%;
     gap: var(--custom-gap);
   }
