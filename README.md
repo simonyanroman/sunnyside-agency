@@ -25,9 +25,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./page_desktop.pdf)
+![](./page_desktop.jpg)
 
-![](page_mobile.pdf)
+![](page_mobile.jpg)
 
 ### Links
 
